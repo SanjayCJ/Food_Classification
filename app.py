@@ -20,7 +20,7 @@ with st.spinner('Model is being loaded..'):
   
 # Function for prediction
 def import_and_predict(image_data, model):
-    size = (128,128)
+    size = (150,150)
     image = ImageOps.fit(image_data, size, Image.ANTIALIAS)
     image = np.asarray(image)
     img = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
