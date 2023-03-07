@@ -6,6 +6,7 @@ from PIL import Image, ImageOps
 from tensorflow import keras
 import numpy as np
 from tensorflow.keras.preprocessing import image
+from my_optimizer import MyOptimizer
 st.set_option('deprecation.showfileUploaderEncoding', False) # to avoid warnings while uploading files
 
 # Here we will use st.cache so that we would load the model only once and store it in the cache memory which will avoid re-loading of model again and again.
