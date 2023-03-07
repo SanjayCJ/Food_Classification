@@ -46,7 +46,7 @@ def main():
         st.text("1. Bread")
         st.text("2. Soup")
         st.text("3. Vegetable-Fruit")
-      st.headerFood Classifier using VGG16")
+      st.header("Food Classifier using VGG16")
       st.image("vgg16.jpg")
             
     if st.button("Predict"):
